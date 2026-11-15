@@ -23,9 +23,9 @@ execute:
 
 ## Branch Logic and Complete Survey Flow
 
-![](branch 1.png){width="500"}
+![](branch%201.png){width="500"}
 
-![Complete survey flow. Each participant is randomly assigned an Ad type of Reviewer or Ads right after the id is set. The two branches then show only the matching ad block. Everyone sees the same DV, Purchasing Behavior, and Demographics blocks.](branch 2.png){width="500"}
+![Complete survey flow. Each participant is randomly assigned an Ad type of Reviewer or Ads right after the id is set. The two branches then show only the matching ad block. Everyone sees the same DV, Purchasing Behavior, and Demographics blocks.](branch%202.png){width="500"}
 
 ## Testing the Random Assignment
 
@@ -69,10 +69,10 @@ Fixes to demographic section are more politically correct and inclusive. Other n
 
 A progress bar shows respondents how much of the survey remains, which sets clear expectations and reduces the chance they drop out partway through.
 
-![Progress bar at the top of the survey.](progress bar.png){width="500"}
+![Progress bar at the top of the survey.](progress%20bar.png){width="500"}
 
 # Appendix
 
-- GitHub Repo
+- [GitHub Repo](https://github.com/lewiswaddell/Qualtrics_M02.git)
 
-- GitHub Pages
+- [GitHub Pages](https://lewiswaddell.github.io/Qualtrics_M02/)
