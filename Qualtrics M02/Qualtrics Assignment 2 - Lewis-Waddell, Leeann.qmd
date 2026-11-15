@@ -1,0 +1,78 @@
+---
+title: "Qualtrics M02"
+subtitle: "Setting up an Experimental Design"
+author: "Leeann Lewis-Waddell"
+date: today
+format: 
+  html: 
+    toc: true
+    toc-depth: 4
+    number-sections: true
+    code-link: true
+    embed-resources: true
+editor: visual
+execute: 
+  freeze: auto
+---
+
+# Random Assignment of Ad Treatment
+
+## Randomizer Setup
+
+![Randomizer placed directly after the id assigns each participant one value of the embedded data field Ad type (Reviewer or Ads). Evenly Present Elements keeps the two groups close to equal in size.](randomizer%202.png){width="500"}
+
+## Branch Logic and Complete Survey Flow
+
+![](branch 1.png){width="500"}
+
+![Complete survey flow. Each participant is randomly assigned an Ad type of Reviewer or Ads right after the id is set. The two branches then show only the matching ad block. Everyone sees the same DV, Purchasing Behavior, and Demographics blocks.](branch 2.png){width="500"}
+
+## Testing the Random Assignment
+
+![The ad linked in the qsf file is no longer active.](test.png){width="500"}
+
+![Randomizer function is confirmed by generating test responses. The resulting data shows that 25 ads would be shown to respondents and 26 social media reviewer videos would be shown if 51 respondents participated. This is a near even split.](test_responses.png){width="500"}
+
+# Redesigning Q2.2: Usage by Platform
+
+## Problem with the Original Question
+
+![Q2.2 asks for total time across all platforms combined, so usage for any single platform can’t be measured. The time ranges also overlap: a 4-hour user fits both ‘3-4’ and ‘4-5. A 5-hour user can choose either 4-5 hours or 5 or more.](Q2.2.png)
+
+## Step 1: Multi-Select Platform Question
+
+![Respondents can now select multiple platforms using the checkbox function so that platforms used is much more specific.](multi-select_answer.png){width="500"}
+
+## Step 2: Carry Forward Usage Matrix
+
+![Q2.2 is now Q2.3, with display logic and carry-forward functions to make respondent selections more specific.](Q2.2_matrix.png){width="500"}
+
+## Preview Test
+
+![](Q2.2_revision1.png){width="500"}
+
+![Respondents can now select only the platforms they use, and the carry-forward function only shows the selections from the previous question.](Q2.2_revision2.png){width="500"}
+
+# Additional Questionnaire Improvements
+
+## Improvement 1: Non-Overlapping Time Ranges
+
+Time ranges in Q2.3 no longer overlap, but are more specific, such as 1 to less than 2 hours.
+
+## Improvement 2: Fixed demographic questions
+
+Fixes to demographic section are more politically correct and inclusive. Other now features a text box and the option to not share if the respondent is uncomfortable self-identifying.
+
+![Gender & ethnicity fixes in demographic section.](demographic_fixes.png){width="500"}
+
+## Improvement 3: Progress bar
+
+A progress bar shows respondents how much of the survey remains, which sets clear expectations and reduces the chance they drop out partway through.
+
+![Progress bar at the top of the survey.](progress bar.png){width="500"}
+
+# Appendix
+
+- GitHub Repo
+
+- GitHub Pages
