@@ -75,4 +75,4 @@ A progress bar shows respondents how much of the survey remains, which sets clea
 
 - [GitHub Repo](https://github.com/lewiswaddell/Qualtrics_M02.git)
 
-- [GitHub Pages](https://lewiswaddell.github.io/Qualtrics_M02/)
+- [GitHub Pages](https://lewiswaddell.github.io/Qualtrics_M02/Qualtrics%20M02/)
